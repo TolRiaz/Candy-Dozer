@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "candy dozer", "Assembly-CSharp.csproj", "{5A4DF6D9-0940-8305-829B-CAA82E2CC194}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "candy dozer", "Assembly-CSharp-Editor.csproj", "{B4E1CD88-CFE1-3EDD-B1DA-6E4546637FEC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5A4DF6D9-0940-8305-829B-CAA82E2CC194}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A4DF6D9-0940-8305-829B-CAA82E2CC194}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A4DF6D9-0940-8305-829B-CAA82E2CC194}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A4DF6D9-0940-8305-829B-CAA82E2CC194}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B4E1CD88-CFE1-3EDD-B1DA-6E4546637FEC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4E1CD88-CFE1-3EDD-B1DA-6E4546637FEC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4E1CD88-CFE1-3EDD-B1DA-6E4546637FEC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4E1CD88-CFE1-3EDD-B1DA-6E4546637FEC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+	EndGlobalSection
+EndGlobal

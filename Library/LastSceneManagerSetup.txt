@@ -1,0 +1,4 @@
+sceneSetups:
+- path: Assets/candy dozer.unity
+  isLoaded: 1
+  isActive: 1
