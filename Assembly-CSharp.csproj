@@ -6,7 +6,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{DA5369A0-29DD-1EF3-32CC-47243E6F5522}</ProjectGuid>
+    <ProjectGuid>{F2E8F308-AAC3-8890-B85D-DFB754C19A9F}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -51,7 +51,7 @@
      <Compile Include="Assets\CandyBaseAssets\Scripts\Pusher.cs" />
      <Compile Include="Assets\CandyBaseAssets\Scripts\Scorer.cs" />
      <Compile Include="Assets\CandyBaseAssets\Scripts\Shooter.cs" />
-     <Compile Include="Assets\Grenade pack free\Scripts\Expolsion.cs" />
+     <Compile Include="Assets\Grenade pack free\Scripts\Explosion.cs" />
      <Compile Include="Assets\JMO Assets\Cartoon FX\Demo\Assets\CFX_AutoStopLoopedEffect.cs" />
      <Compile Include="Assets\JMO Assets\Cartoon FX\Demo\Assets\CFX_Demo_New.cs" />
      <Compile Include="Assets\JMO Assets\Cartoon FX\Demo\Assets\CFX_Demo_RandomDir.cs" />

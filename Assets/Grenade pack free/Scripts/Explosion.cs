@@ -2,24 +2,24 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Expolsion : MonoBehaviour {
-
+public class Explosion : MonoBehaviour {
 
 	// Grenade explodes after a time delay.
 	private float Timer;
 	public float fuseTime;
-	Collider col = gameObject.GetComponent<BoxCollider>();
-
+	float expTime = 0.1f;
+	public GameObject expPrefab;
 
 	void Start() {
 		Timer = 0;	// set the current time
 	}
-		
+
 	void Explode() {
-		
-		// var exp = GetComponent<ParticleSystem>();
-		// exp.Play();
-		Destroy(gameObject); //, exp.duration);
+		var col = gameObject.GetComponent<BoxCollider>();
+		col.size = new Vector3 (1.0f, 1.0f, 1.0f);
+		GameObject exp = (GameObject)Instantiate (expPrefab, transform.position, Quaternion.identity); 
+		Destroy(gameObject);
+		Destroy (exp, 0.3f);
 	}
 
 	void Update() {

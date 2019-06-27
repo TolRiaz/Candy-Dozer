@@ -8,6 +8,7 @@ public class Scorer : MonoBehaviour {
 	string label;
 	public CandyHolder ch;
 	public int reward;
+	public GameObject point;
 
 	void Start() {
 		score = 0;
@@ -18,6 +19,9 @@ public class Scorer : MonoBehaviour {
 			Destroy (col.gameObject);
 			score++;
 			ch.AddCandy (reward);
+			GameObject star = (GameObject)Instantiate (point, transform.position, Quaternion.identity);
+			star.transform.Translate (0, 10, 0);
+			Destroy (star, 3.0f);
 		}
 	}
 
