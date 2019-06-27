@@ -19,7 +19,7 @@ public class Explosion : MonoBehaviour {
 		col.size = new Vector3 (1.0f, 1.0f, 1.0f);
 		GameObject exp = (GameObject)Instantiate (expPrefab, transform.position, Quaternion.identity); 
 		Destroy(gameObject);
-		Destroy (exp, 0.3f);
+		Destroy (exp, 0.5f);
 	}
 
 	void Update() {

@@ -4,7 +4,7 @@
     <Files>
       <File FileName="Assets\CandyBaseAssets\Scripts\Scorer.cs" Line="1" Column="1" />
       <File FileName="Assets\CandyBaseAssets\Scripts\Shooter.cs" Line="1" Column="1" />
-      <File FileName="Assets\Grenade pack free\Scripts\Explosion.cs" Line="19" Column="39" />
+      <File FileName="Assets\Grenade pack free\Scripts\Explosion.cs" Line="22" Column="23" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
